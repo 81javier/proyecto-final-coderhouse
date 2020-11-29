@@ -181,7 +181,7 @@ a{
 }
 
 .btn_reservar{
-    background-color: antiquewhite;
+    background-color:red;
     height: 3rem;
     width: 7rem;
     transition: 2s;
