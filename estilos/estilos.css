@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+      background-color: rgba(17, 17, 17, 0.904);
+  }
+  
+  header{
+    grid-area: header;
+    border-bottom: 2px solid red;
+    
+}
+
+li{
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+h1{
+    color: antiquewhite;
+}
+h2{
+    color: antiquewhite;
+}
+
+p{
+    color: antiquewhite;
+}
+
+
+a{
+
+    text-decoration: none;
+}
+
+.icon{
+    display: none;
+}
+
+.header_nav li{
+   margin-top: 10px; 
+   margin-bottom: 10px;
+   margin-right: 10px; 
+   font-size: x-large; 
+   
+}
+
+.header_nav li a{
+    color: antiquewhite;
+    transition: 2s;
+    
+}
+
+.header_nav li a:hover{
+    
+    background-color: grey;
+    border-radius: 8px;
+     
+}
+
+
+
+
+
+ .header_nav ul{
+    display: flex;
+    
+    
+    
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.logo{
+    width:25rem;
+    position: relative;
+    
+}
+
+.img_logo p{
+    position: relative;
+    font-size: 2rem;
+    bottom: 10rem;
+    margin-left: 10px;
+}
+.img_logo img{
+    margin-left: 15px;
+    bottom: 4rem;
+}
+
+
+
+
+
+.titulos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: titulos;
+    
+    
+}
+
+.titulos h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.titulos h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.img_trabajos h2{
+    color: black;
+    
+}
+
+.img_trabajos p{
+    color: black;
+    
+}
+
+
+.img_trabajos {
+     grid-area: trabajos;
+    
+     
+}
+.img_trabajos  ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img_trabajos ul li div{
+    width: 21rem;
+    height: 30rem;
+    background-color: antiquewhite;
+    border: 2px solid rgb(255, 3, 3);
+    border-radius: 5%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+.img_trabajos div img{
+    width: 18rem;
+    height: 13rem;
+    border: 1px solid white;
+    border-radius: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+   
+}
+
+.img_trabajos p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img_trabajos h2{
+    margin-top: 15px;
+}
+
+.btn_reservar{
+    background-color: antiquewhite;
+    height: 3rem;
+    width: 7rem;
+    transition: 2s;
+}
+
+.btn_reservar:hover{
+    transform: scale(1.2);
+    background-color: rgb(78, 69, 69);
+}
+
+.nosotros  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: trabajos;
+    
+}
+
+.nosotros p{
+    font-size: 1.5rem;
+    max-width: 30rem;
+    text-align: center;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: trabajos;
+}
+
+.servicios p{
+    margin: 10px;
+    text-align: center;
+}
+
+.galeria{
+  grid-area: trabajos;  
+}
+
+.galeria img{
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+
+.galeria ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+
+}
+
+.ubicacion{
+    grid-area: trabajos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ubicacion h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.map iframe{
+    
+    border-radius: 6%;
+}
+
+
+
+
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    grid-area: footer;
+    text-align: center;
+    position: relative;
+    top: 10rem;
+    border-top:  2px solid red;
+    
+    
+}
+
+footer p{
+    margin-top:  10px;
+  font-size: 25px;  
+}
+
+
+button:hover{
+    transform: rotate(12deg) scale(1.3);
+
+}
+button{
+    border-radius: 50px;
+    transition: 2s;
+}
+
+.btn_facebook{
+    background-image: url(/media/facebook.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.btn_instagram{
+    background-image: url(/media/instagram.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+.botones ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+
+      
+  }
+
+  .botones ul li{
+      margin-right: 10px;
+  }
+
+
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 2fr 200px;
+    grid-template-rows: repeat(4, 3fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas:
+      "header header header"
+      "titulos titulos titulos"
+      "trabajos trabajos trabajos"
+      "footer footer footer";
+  }
+
+
+
+
+  @media only screen and (max-width:960px){
+     
+    a{
+        font-size: 1rem;
+    }
+
+    .header_nav ul {
+        display: block;
+        
+    }
+
+   .header_nav{
+       display:inline;
+       text-align: center;
+       
+   }
+    
+    
+    .logo{
+    max-width: 40%;
+
+      
+ }
+
+    .img_logo p{
+       display: none;   
+    }
+    
+    
+
+    .header_nav nav{
+       display: none;
+       
+      
+    }
+
+    #menu:target{
+        display: block;
+        text-align:left ;
+
+    }
+
+    
+
+    .icon {
+        display: block;
+        width: 2rem;
+        height:2rem;
+        margin-left:2rem;
+        margin-top: 2rem;
+        filter: invert(100%);
+    }
+
+
+
+   
+
+    .titulos h1{
+        font-size: 1.3rem;
+    }
+
+    .titulos h2{
+        font-size:1.2rem;
+    }
+
+    .ubicacion h2{
+        font-size: 1.2rem;
+    }
+
+    
+    
+    
+
+    .img_trabajos div p{
+        font-size: 0.8rem;
+    }
+    .nosotros p{
+        max-width: 15rem;
+        font-size: 1rem;
+    }
+
+    .botones ul{
+        justify-content:center;
+    }
+
+    .galeria img{
+        width: 13rem;
+        
+    }
+
+    .ubicacion iframe{
+        width: 100%;
+    }
+    
+
+ 
+
+}
