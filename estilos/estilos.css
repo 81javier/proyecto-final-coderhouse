@@ -239,12 +239,12 @@ header{
     width: 300px;
     border: 2px solid red;
     border-radius: 8px;
-    margin: 10px;
+    margin: 15px ;
     transition: 1s;
 }
 
 .galeria img:hover{
- transform: scale(2);
+ transform: scale(1.2);
 }
 
 
@@ -255,6 +255,7 @@ header{
   
 
 }
+
 
 .ubicacion{
     grid-area: trabajos;
@@ -359,23 +360,43 @@ body{
       "footer footer footer";
   }
 
+@media only screen and (max-width:1066px){
+    .titulos h1{
+        font-size: 2rem;
+        
+    }
+    .titulos h2{
+        font-size: 2rem;
+    }
 
+}
 
 
   @media only screen and (max-width:960px){
      
     a{
         font-size: 1rem;
+        
     }
+ 
+    
+
+   
 
     .header_nav ul {
         display: block;
+        text-align: center;
+       
+        
+        
         
     }
 
    .header_nav{
        display:inline;
        text-align: center;
+       
+       
        
    }
     
@@ -393,14 +414,29 @@ body{
     
 
     .header_nav nav{
-       display: none;
        
+       display: none;
+       border-radius: 6%;
+       margin-top: 10px;
+       width: 6rem;
+       
+       
+    
+       
+       
+      
       
     }
 
     #menu:target{
+        position: relative;
         display: block;
         text-align:left ;
+        background-color: rgb(63, 60, 60);
+        bottom: 12rem;
+        
+        
+        
 
     }
 
@@ -464,3 +500,4 @@ body{
  
 
 }
+
