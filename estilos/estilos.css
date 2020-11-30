@@ -474,6 +474,9 @@ body{
     .img_trabajos div p{
         font-size: 0.8rem;
     }
+    .img_trabajos h2{
+        font-size: 1.2rem;
+    }
     .nosotros p{
         max-width: 15rem;
         font-size: 1rem;
