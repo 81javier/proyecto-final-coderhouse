@@ -5,6 +5,7 @@
 }
 
 html {
+  font-size: 16px;
   background-color: rgba(17, 17, 17, 0.904);
 }
 
@@ -176,7 +177,7 @@ header {
   text-align: center;
 }
 
-.servicios {
+.servicios{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -186,6 +187,16 @@ header {
 .servicios p {
   margin: 10px;
   text-align: center;
+}
+
+.servicios h2{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.servicios div{
+  width: 30rem;
 }
 
 .galeria {
@@ -347,6 +358,7 @@ body {
     text-align: left;
     background-color: rgb(63, 60, 60);
     bottom: 10rem;
+    
   }
 
   .icon {
