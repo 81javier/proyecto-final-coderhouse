@@ -349,35 +349,27 @@ body {
     display: none;
     border-radius: 6%;
     margin-top: 10px;
-    margin-right: 10px;
     width: 6rem;
-
     
   }
 
   #menu{
+    background-color: rgb(63, 60, 60);
     text-align: center;
     padding: 2px;
-    bottom: 12.5rem;
-    
-   
+    bottom: 14rem;
+    margin-top:1rem;
+    margin-left: 0.9rem;
   }
 
   #menu:target {
     position: relative;
     display: block;
   } 
-
-  .menu_nav{
-    display: flex;
-    background-color: rgb(63, 60, 60);
-    justify-content: center;
-    width: 10rem;
-    height: 12rem;
-    border-radius: 6%;
+  
+  .img_logo a{
+    transition: 2s;
   }
-  
-  
     
     
     
@@ -387,8 +379,8 @@ body {
     display: block;
     width: 2rem;
     height: 2rem;
-    margin-right: 1rem;
-    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
     filter: invert(100%);
   }
 
