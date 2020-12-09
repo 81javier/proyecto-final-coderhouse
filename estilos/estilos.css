@@ -172,7 +172,7 @@ header {
 }
 
 .nosotros p {
-  font-size: 1.5rem;
+  margin: 2px;
   max-width: 30rem;
   text-align: center;
 }
@@ -196,7 +196,7 @@ header {
 }
 
 .servicios div{
-  width: 30rem;
+  max-width:30rem;
 }
 
 .galeria {
@@ -371,8 +371,6 @@ body {
   .menu_nav{
     display: flex;
     background-color: rgb(63, 60, 60);
-    
-    
     width: 10rem;
     height: 12rem;
     border-radius: 6%;
@@ -412,8 +410,11 @@ body {
     font-size: 1.2rem;
   }
   .nosotros p {
-    max-width: 15rem;
-    font-size: 1rem;
+    max-width: 25rem;
+    
+  }
+  .servicios p{
+    max-width: 25rem;
   }
 
   .galeria img {
