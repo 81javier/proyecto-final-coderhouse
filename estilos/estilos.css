@@ -371,7 +371,8 @@ body {
   .menu_nav{
     display: flex;
     background-color: rgb(63, 60, 60);
-    justify-content: center;
+    
+    
     width: 10rem;
     height: 12rem;
     border-radius: 6%;
