@@ -310,14 +310,19 @@ body {
 
 @media only screen and (max-width: 1066px) {
   .titulos h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .titulos h2 {
     font-size: 2rem;
   }
+  
+  .img_logo p {
+    font-size: 1.6rem;
+  }
+  
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 768px) {
   a {
     font-size: 1rem;
   }
@@ -343,7 +348,7 @@ body {
   .header_nav nav {
     display: none;
     border-radius: 6%;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-right: 10px;
     width: 6rem;
   }
@@ -351,7 +356,7 @@ body {
   #menu {
     text-align: center;
     padding: 2px;
-    bottom: 12.5rem;
+    bottom: 12rem;
   }
 
   #menu:target {
@@ -373,8 +378,9 @@ body {
     display: block;
     width: 2rem;
     height: 2rem;
-    margin-right: 1rem;
-    margin-top: 1.5rem;
+    margin-left: 10px;
+    margin-right: 16px;
+    margin-top: 20px;
     filter: invert(100%);
   }
 
