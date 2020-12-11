@@ -48,7 +48,7 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
-  font-size: x-large;
+  font-size:1rem;
 }
 
 .header_nav li a {
@@ -112,7 +112,7 @@ header {
 }
 
 .img_trabajos {
-  grid-area: trabajos;
+  grid-area: contenido;
 }
 .img_trabajos ul {
   display: flex;
@@ -125,7 +125,7 @@ header {
   height: 31rem;
   background-color: antiquewhite;
   border: 2px solid rgb(255, 3, 3);
-  border-radius: 2%;
+  border-radius: 6%;
   text-align: center;
   margin-top: 30px;
 }
@@ -168,7 +168,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  grid-area: trabajos;
+  grid-area: contenido;
 }
 
 .nosotros p {
@@ -177,30 +177,31 @@ header {
   text-align: center;
 }
 
-.servicios{
+.servicios {
   display: flex;
   flex-direction: column;
   align-items: center;
-  grid-area: trabajos;
+  grid-area: contenido;
 }
 
 .servicios p {
+  max-width: 30rem;
   margin: 10px;
   text-align: center;
 }
 
-.servicios h2{
+.servicios h2 {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.servicios div{
-  max-width:30rem;
+.servicios div {
+  max-width: 30rem;
 }
 
 .galeria {
-  grid-area: trabajos;
+  grid-area: contenido;
 }
 
 .galeria img {
@@ -222,7 +223,7 @@ header {
 }
 
 .ubicacion {
-  grid-area: trabajos;
+  grid-area: contenido;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,12 +236,8 @@ header {
   font-size: 50px;
 }
 
-.formulario input{
-  border-radius: 6%;
-}
-
 .map iframe {
-  border-radius: 6%;
+  border-radius: 4%;
 }
 
 footer {
@@ -263,7 +260,6 @@ footer p {
 }
 .redes img {
   transition: 2s;
-  
 }
 
 .btn_facebook img {
@@ -291,13 +287,12 @@ footer p {
   font-size: 25px;
 }
 
-.botones{
+.botones {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 1rem;
 }
-
 
 body {
   height: 100vh;
@@ -309,7 +304,7 @@ body {
   grid-template-areas:
     "header header header"
     "titulos titulos titulos"
-    "trabajos trabajos trabajos"
+    "contenido contenido contenido"
     "footer footer footer";
 }
 
@@ -351,36 +346,26 @@ body {
     margin-top: 10px;
     margin-right: 10px;
     width: 6rem;
-
-    
   }
 
-  #menu{
+  #menu {
     text-align: center;
     padding: 2px;
     bottom: 12.5rem;
-    
-   
   }
 
   #menu:target {
     position: relative;
     display: block;
-  } 
+  }
 
-  .menu_nav{
+  .menu_nav {
     display: flex;
     background-color: rgb(63, 60, 60);
     width: 10rem;
     height: 12rem;
     border-radius: 6%;
   }
-  
-  
-    
-    
-    
-  
 
   .icon {
     display: block;
@@ -411,14 +396,13 @@ body {
   }
   .nosotros p {
     max-width: 25rem;
-    
   }
-  .servicios p{
+  .servicios p {
     max-width: 25rem;
   }
 
   .galeria img {
-    width: 13rem;
+    max-width: 13rem;
   }
 
   .ubicacion iframe {
