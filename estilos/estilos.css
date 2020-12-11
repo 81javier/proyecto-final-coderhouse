@@ -274,7 +274,7 @@ footer p {
 
 .botones ul {
   display: flex;
-  margin: 10px;
+  margin: 15px;
 }
 
 .botones ul li {
@@ -361,6 +361,8 @@ body {
 
   .menu_nav {
     display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
     background-color: rgb(63, 60, 60);
     width: 10rem;
     height: 12rem;
@@ -407,5 +409,24 @@ body {
 
   .ubicacion iframe {
     width: 100%;
+  }
+  .footer p{
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .titulos h1 {
+    font-size: 1rem;
+  }
+  .titulos h2 {
+    font-size: 1rem;
+  }
+  .ubicacion h2 {
+    font-size: 1rem;
+  }
+
+  .footer p{
+    font-size: 1rem;
   }
 }
