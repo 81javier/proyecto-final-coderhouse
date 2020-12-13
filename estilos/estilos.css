@@ -184,6 +184,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   grid-area: contenido;
 }
 
@@ -374,10 +375,10 @@ body {
     flex-direction: column;
   }
   .map {
-    max-width: 70%;
+    max-width: 80%;
   }
   .formulario {
-    max-width: 70%;
+    max-width:80%; 
   }
 }
 
@@ -464,8 +465,9 @@ body {
   .nosotros p {
     max-width: 25rem;
   }
-  .servicios p {
-    max-width: 25rem;
+  .servicios  {
+    text-align: center;
+    margin: 0px 5px 0px 5px;
   }
 
   .galeria img {
@@ -473,7 +475,7 @@ body {
   }
 
   .ubicacion iframe {
-    width: 100%;
+    max-width: 90%;;
   }
   .footer p {
     font-size: 1rem;
@@ -490,6 +492,7 @@ body {
   .ubicacion h2 {
     font-size: 1rem;
   }
+ 
 
   .footer p {
     font-size: 0.6rem;
