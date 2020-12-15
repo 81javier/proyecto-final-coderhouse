@@ -18,7 +18,7 @@ nav li {
   list-style: none;
   text-transform: uppercase;
 }
-li{
+li {
   list-style: none;
 }
 h1 {
@@ -124,7 +124,6 @@ header {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
- 
 
 .img_trabajos ul li div {
   width: 18rem;
@@ -173,7 +172,7 @@ header {
 
 .nosotros {
   display: flex;
- text-align: center;
+  text-align: center;
   align-items: center;
   justify-content: space-evenly;
   grid-area: contenido;
@@ -184,11 +183,10 @@ header {
   text-align: center;
 }
 
-.nosotros img{
- width: 25rem;
- margin: 10px;
- border-radius: 5px;
- 
+.nosotros img {
+  width: 25rem;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .servicios {
@@ -389,19 +387,17 @@ body {
     max-width: 80%;
   }
   .formulario {
-    max-width:80%; 
+    max-width: 80%;
   }
   a {
     font-size: 1rem;
   }
-  .nosotros{
+  .nosotros {
     flex-direction: column;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  
-
   .header_nav ul {
     display: block;
     text-align: center;
@@ -479,9 +475,8 @@ body {
   }
   .nosotros p {
     max-width: 25rem;
-    
   }
-  .servicios  {
+  .servicios {
     text-align: center;
     margin: 0px 5px 0px 5px;
   }
@@ -491,7 +486,7 @@ body {
   }
 
   .ubicacion iframe {
-    max-width: 90%;;
+    max-width: 90%;
   }
   .footer p {
     font-size: 1rem;
@@ -508,7 +503,6 @@ body {
   .ubicacion h2 {
     font-size: 1rem;
   }
- 
 
   .footer p {
     font-size: 0.6rem;
