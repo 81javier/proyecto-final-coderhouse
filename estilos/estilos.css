@@ -157,7 +157,7 @@ header {
 .btn_reservar {
   color: white;
   padding: 2px;
-  background-color: gray;
+  background-color: rgba(17, 17, 17, 0.904);
   border-radius: 5px;
   margin-bottom: 10px;
   height: 3rem;
@@ -173,15 +173,22 @@ header {
 
 .nosotros {
   display: flex;
-  flex-direction: column;
+ text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   grid-area: contenido;
 }
 
 .nosotros p {
-  max-width: 30rem;
+  max-width: 20rem;
   text-align: center;
+}
+
+.nosotros img{
+ width: 25rem;
+ margin: 10px;
+ border-radius: 5px;
+ 
 }
 
 .servicios {
@@ -269,7 +276,7 @@ header {
   height: 3rem;
   width: 7rem;
   transition: 1s;
-  background-color: gray;
+  background-color: rgba(17, 17, 17, 0.904);
   color: antiquewhite;
 }
 .btn_submit input:hover {
@@ -386,6 +393,9 @@ body {
   }
   a {
     font-size: 1rem;
+  }
+  .nosotros{
+    flex-direction: column;
   }
 }
 
