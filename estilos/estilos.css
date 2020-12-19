@@ -160,7 +160,7 @@ header {
   padding: 2px;
   background-color: rgba(17, 17, 17, 0.904);
   border-radius: 5px;
-  margin-top: 30px;
+  margin-top: 2px;
   height: 3rem;
   width: 7rem;
   transition: 1s;
@@ -237,7 +237,12 @@ header {
   flex-wrap: wrap;
 }
 
-.ubicacion {
+#foto1:target{
+ text-align: center;
+ transform: scale(3);
+  
+}
+  .ubicacion {
   grid-area: contenido;
   display: flex;
   justify-content: space-around;
