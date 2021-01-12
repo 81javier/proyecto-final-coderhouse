@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/estilos/estilos.css">
+    <script defer src="scripts/repuestos.js" ></script>
 </head>
 
 <body>
@@ -47,11 +48,11 @@
                         </li>
 
                         <li>
-                            <a href="galeria.html">galeria</a>
+                            <a href="galeria.html">repuestos</a>
                         </li>
 
                         <li>
-                            <a href="contacto.html">contacto</a>
+                            <a href="contacto.html">turnos</a>
                         </li>
                     </ul>
                 </div>
@@ -66,41 +67,28 @@
 
     <div class="titulos">
 
-        <h1>Contacto</h1>
+        <h1>Turnos</h1>
 
-    </div>
-
-    <section class="ubicacion">
-        <div class="formulario">
-            <h2>Consultas</h2>
-
-            <form action="#">
-
-                <div><input type="name" placeholder="Nombre" requiered></div>
-                <div><input type="apellido" placeholder="Apellido" requiered></div>
-                <div><input type="email" placeholder="Email" required></div>
-                <div><textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje"
-                        required></textarea></div>
-                <div class="btn_submit"><input type="submit" value="Enviar formulario"></div>
-
-
-            </form>
-
-        </div>
-
-        <div class="map">
-            <h2>Ubicación</h2>
-
-            <div class="iframe">
-
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.4948273655937!2d-58.53955248492362!3d-34.464969380495695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb01dd530f6d3%3A0x8247cf407ca2b547!2sJuan%20B.%20Justo%201028%2C%20B1643FMT%20B%C3%A9ccar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1603591628936!5m2!1ses!2sar"
-                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
+        <section>
+            <div class="formulario">
+                <h2>Reservar turno</h2>
+                <form action="#">
+    
+                    <div><input type="nombre" placeholder="Nombre" requiered></div>
+                    <div><input type="apellido" placeholder="Apellido" requiered></div>
+                    <div><input type="patente" placeholder="Patente" requiered></div>
+                    <div><input type="marca" placeholder="Marca" requiered></div>
+                    <div><input type="modelo" placeholder="Modelo" requiered></div>
+                    <div><input type="email" placeholder="Email" required></div>
+                    <div><textarea name="mensaje" placeholder="describa las averias del vehiculo" id="" cols="25" rows="7"></textarea></div>
+                    <div class="btn_submit"><input type="submit" value="Solicitar"></div>
+    
+    
+                </form>
             </div>
-        </div>
+        </section>
 
-    </section>
+    
 
 
 
@@ -109,16 +97,21 @@
 
         <section class="footer">
 
+            <div class="contacto">
+              
+    
+                
+    
+            
 
-
-            <div>
+            <div class="datosContacto">
 
                 <h2>Tel:11-3-872-7211</h2>
                 <h2>Dirección:Juan b justo 1028 Béccar</h2>
                 <h2>Email:maservice@abc.com</h2>
                 <h2>Copyright&copy; 2020 Javier Martin </h2>
 
-            </div>
+           
 
             <div class="botones">
 
@@ -135,7 +128,22 @@
                 </ul>
             </div>
 
+        </div>
+            <div class="map">
+               
+    
+                <div class="iframe">
+    
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.4948273655937!2d-58.53955248492362!3d-34.464969380495695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb01dd530f6d3%3A0x8247cf407ca2b547!2sJuan%20B.%20Justo%201028%2C%20B1643FMT%20B%C3%A9ccar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1603591628936!5m2!1ses!2sar"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </div>
+
         </section>
+
+    </div>
 
     </footer>
 
