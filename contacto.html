@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/estilos/estilos.css">
-    <script defer src="scripts/repuestos.js" ></script>
+    <script defer src="scripts/turnos.js" ></script>
 </head>
 
 <body>
@@ -74,14 +74,14 @@
                 <h2>Reservar turno</h2>
                 <form action="#">
     
-                    <div><input type="nombre" placeholder="Nombre" requiered></div>
-                    <div><input type="apellido" placeholder="Apellido" requiered></div>
-                    <div><input type="patente" placeholder="Patente" requiered></div>
-                    <div><input type="marca" placeholder="Marca" requiered></div>
-                    <div><input type="modelo" placeholder="Modelo" requiered></div>
-                    <div><input type="email" placeholder="Email" required></div>
-                    <div><textarea name="mensaje" placeholder="describa las averias del vehiculo" id="" cols="25" rows="7"></textarea></div>
-                    <div class="btn_submit"><input type="submit" value="Solicitar"></div>
+                    <div><input id="nombre" type="nombre" placeholder="Nombre" requiered></div>
+                    <div><input id="apellido" type="apellido" placeholder="Apellido" requiered></div>
+                    <div><input id="patente" type="patente" placeholder="Patente" requiered></div>
+                    <div><input id="marca" type="marca" placeholder="Marca" requiered></div>
+                    <div><input id="modelo" type="modelo" placeholder="Modelo" requiered></div>
+                    <div><input id="email" type="email" placeholder="Email" required></div>
+                    <div><textarea id="mensaje" name="mensaje" placeholder="describa las averias del vehiculo" id="" cols="25" rows="7"></textarea></div>
+                    <div id="btn_submit"><input type="submit" value="Solicitar"></div>
     
     
                 </form>

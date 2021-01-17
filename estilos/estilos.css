@@ -256,6 +256,22 @@ header {
   color: black;
 }
 
+.btnProduct{
+  color: white;
+  padding: 2px;
+  background-color: rgba(17, 17, 17, 0.904);
+  border-radius: 5px;
+  margin-top: 2px;
+  height: 3rem;
+  width: 7rem;
+  transition: 1s;
+}
+.btnProduct:hover {
+  transform: scale(1.2);
+  background-color: red;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.39);
+}
+
 
 .datosContacto{
   display: flex;
@@ -313,7 +329,16 @@ header {
   background-color: red;
   box-shadow: 2px 3px rgba(0, 0, 0, 0.39);
 }
-
+.btnProduct{
+  color: white;
+  padding: 2px;
+  background-color: rgba(17, 17, 17, 0.904);
+  border-radius: 5px;
+  margin-top: 2px;
+  height: 3rem;
+  width: 7rem;
+  transition: 1s;
+}
 
 
  
