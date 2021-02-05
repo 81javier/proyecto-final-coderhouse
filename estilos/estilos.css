@@ -396,6 +396,20 @@ footer {
   margin-right: 10px;
   font-size: 25px;
 }
+.aside{
+ margin-right: 15px; 
+ margin-bottom: 5px;
+ margin-left: 20px;
+ border-radius: 5px;
+ background-color:grey;
+ display: flex;
+ text-align: center;
+ 
+ justify-content: center;
+ align-items: flex-start;
+ flex-wrap: wrap;
+ grid-area:aside;
+}
 
 .botones {
   display: flex;
@@ -413,8 +427,8 @@ body {
   grid-row-gap: 10px;
   grid-template-areas:
     "header header header"
-    "titulos titulos titulos"
-    "contenido contenido contenido"
+    "titulos titulos vacio"
+    "contenido contenido aside"
     "footer footer footer";
 }
 

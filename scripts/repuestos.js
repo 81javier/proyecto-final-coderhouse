@@ -1,44 +1,13 @@
 
 
 
-
-  /* const products = [
-        
-
-    
-      {
-            "id":"00001",
-            "modelo":"Peugeot 307",
-            "motor":"rhy",
-            "producto":"kit de distribucion",
-            "descripcion":"Kit de distribucion origuinal con bomba de agua",
-            "precio":"$7800",
-            "available":true
-       },
-        
-         {  "id":"00002",
-            "modelo":"Peugeot 307",
-            "motor":"ew10",
-            "producto":"kit de distribucion",
-            "descripcion":"Kit de distribucion origuinal con bomba de agua",
-            "precio":"$11800",
-            "imagen": src="media/imggaleria/distribucion_408.jpg",
-            "available":true
-        }
-
-    
-
-    
-
-      
-    ];*/
-
     const products = [{
         "id" : "0001",
         "name" : "Distribucion 2.0 ew10",
         "description" : "kit de distribucion con bomba de agua para motor 2.0 16v de peugeot y citroen.",
         "img" : "media/shop/dist40820.png",
         "price" : 13200,
+        "stock" : 1,
         "available" : true,
         tags : ["ew10", "peugeot", "repuestos"]
       },{
@@ -47,23 +16,26 @@
         "description" : "kit de distribucion con bomba de agua para motor 2.0 hdi de peugeot y citroen.",
         "img" : "media/shop/dist2.0hdi.png",
         "price" : 9800,
+        "stock" : 100,
         "available" : true,
-        tags : ["phone", "apple"]
+        tags : ["rhy", "peugeot" , "repuestos"]
       },{
         "id" : "0003",
-        "name" : "Iphone",
-        "description" : "kit de distribucion con bomba de agua para motor 1.6 hdi de peugeot y citroen.",
-        "img" : "media/shop/distdv6.png",
-        "price" : 12500,
+        "name" : "Distribucion 1.6 16v Ec5",
+        "description" : "kit de distribucion con bomba de agua para motor 1.6 16v Ec5 de peugeot y citroen.",
+        "img" : "media/shop/distec5.png",
+        "price" : 1500,
+        "stock" : 100,
         "available" : true,
-        tags : ["phone", "apple"]
+        tags : ["ec5", "peugeot" , "repuestos"]
       },{
         "id" : "0004",
         "name" : "Iphone",
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0005",
@@ -71,7 +43,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0006",
@@ -79,7 +52,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0007",
@@ -87,7 +61,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0008",
@@ -95,7 +70,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0009",
@@ -103,7 +79,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0010",
@@ -111,7 +88,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0011",
@@ -119,7 +97,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0012",
@@ -127,7 +106,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0013",
@@ -135,7 +115,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0015",
@@ -143,7 +124,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0016",
@@ -151,7 +133,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0017",
@@ -159,7 +142,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },{
         "id" : "0017",
@@ -167,7 +151,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["phone", "apple"]
       },
 
@@ -177,6 +162,7 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 300,
+        "stock" : 100,
         "available" : false,
         tags : ["tv", "google"]
       },{
@@ -185,7 +171,8 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit tempus hendrerit.",
         "img" : "https://picsum.photos/300/200",
         "price" : 400,
-        "available" : true,
+        "stock" : 100,
+        "available" : false,
         tags : ["tv", "google"]
       }
       ];
