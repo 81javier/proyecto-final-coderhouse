@@ -23,7 +23,7 @@
         "id" : "0003",
         "name" : "Distribucion 1.6 16v Ec5",
         "description" : "kit de distribucion con bomba de agua para motor 1.6 16v Ec5 de peugeot y citroen.",
-        "img" : "media/shop/distec5.png",
+        "img" : "media/shop/distEc5.png",
         "price" : 1500,
         "stock" : 100,
         "available" : true,
