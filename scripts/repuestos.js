@@ -26,7 +26,7 @@
         "img" : "media/shop/distec5.png",
         "price" : 1500,
         "stock" : 100,
-        "available" : false,
+        "available" : true,
         tags : ["ec5", "peugeot" , "repuestos"]
       },{
         "id" : "0004",
