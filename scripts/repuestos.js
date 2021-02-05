@@ -26,7 +26,7 @@
         "img" : "media/shop/distec5.png",
         "price" : 1500,
         "stock" : 100,
-        "available" : true,
+        "available" : false,
         tags : ["ec5", "peugeot" , "repuestos"]
       },{
         "id" : "0004",
@@ -35,7 +35,7 @@
         "img" : "https://picsum.photos/300/200",
         "price" : 200,
         "stock" : 100,
-        "available" : false,
+        "available" :true,
         tags : ["phone", "apple"]
       },{
         "id" : "0005",
